@@ -1,8 +1,48 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6C424E55-4B06-44A7-916A-530E781CB8DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C3F300E1-FF92-4A87-AA27-943D79F93376}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5A3489DD-1469-430D-9E94-0358D92C41CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A6C5873A-8545-47C2-B894-FE9319C4D90F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notion.Domain", "Notion.Domain\Notion.Domain.csproj", "{ACAE189B-1A7E-4EDA-94CA-9E31C8C5DF21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notion.Application", "Notion.Application\Notion.Application.csproj", "{F2A3063A-1D7D-4B74-BDDE-EC2BE18B5906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notion.Persistence", "Notion.Persistence\Notion.Persistence.csproj", "{00F5440A-B1D6-48CB-81CB-B484A2734408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notion.Api", "Notion.Api\Notion.Api.csproj", "{CD7702B1-7F77-44EF-8218-D6F0A1AB0E65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACAE189B-1A7E-4EDA-94CA-9E31C8C5DF21} = {6C424E55-4B06-44A7-916A-530E781CB8DA}
+		{F2A3063A-1D7D-4B74-BDDE-EC2BE18B5906} = {6C424E55-4B06-44A7-916A-530E781CB8DA}
+		{00F5440A-B1D6-48CB-81CB-B484A2734408} = {5A3489DD-1469-430D-9E94-0358D92C41CD}
+		{CD7702B1-7F77-44EF-8218-D6F0A1AB0E65} = {C3F300E1-FF92-4A87-AA27-943D79F93376}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACAE189B-1A7E-4EDA-94CA-9E31C8C5DF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAE189B-1A7E-4EDA-94CA-9E31C8C5DF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAE189B-1A7E-4EDA-94CA-9E31C8C5DF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAE189B-1A7E-4EDA-94CA-9E31C8C5DF21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A3063A-1D7D-4B74-BDDE-EC2BE18B5906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A3063A-1D7D-4B74-BDDE-EC2BE18B5906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A3063A-1D7D-4B74-BDDE-EC2BE18B5906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A3063A-1D7D-4B74-BDDE-EC2BE18B5906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F5440A-B1D6-48CB-81CB-B484A2734408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F5440A-B1D6-48CB-81CB-B484A2734408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F5440A-B1D6-48CB-81CB-B484A2734408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F5440A-B1D6-48CB-81CB-B484A2734408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD7702B1-7F77-44EF-8218-D6F0A1AB0E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD7702B1-7F77-44EF-8218-D6F0A1AB0E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD7702B1-7F77-44EF-8218-D6F0A1AB0E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD7702B1-7F77-44EF-8218-D6F0A1AB0E65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
