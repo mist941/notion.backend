@@ -11,4 +11,8 @@
       <ProjectReference Include="..\Notion.Domain\Notion.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0-preview.5.22302.2" />
+    </ItemGroup>
+
 </Project>
